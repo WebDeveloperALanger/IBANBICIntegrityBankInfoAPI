@@ -1,0 +1,21 @@
+{
+    "name": "andre-langer/iban-bic-integrity-bank-info-api",
+    "description": "API to verify or retrieve the corresponding BIC using Bankcode/Bankleitzahl or IBAN",
+    "type": "library",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "AndreLanger\\IbanBicIntegrityBankInfoApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andre Langer",
+            "email": "ALangerWebDev@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.2"
+    }
+}
