@@ -6,7 +6,10 @@
     "autoload": {
         "psr-4": {
             "AndreLanger\\IbanBicIntegrityBankInfoApi\\": "src/"
-        }
+        },
+        "files": [
+            "src/IBANBICIntegrityBankInfoAPI.bootstrap.php"
+        ]
     },
     "authors": [
         {
@@ -16,6 +19,7 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": "^8.2"
+        "php": "^8.2",
+        "ext-pdo": "*"
     }
 }
